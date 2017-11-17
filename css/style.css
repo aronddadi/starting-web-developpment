@@ -1,0 +1,103 @@
+body{
+  background-color:WhiteSmoke;
+  width: 500px;
+  font-family: 'Montserrat',sans-serif;
+  text-align:center;
+  margin:auto;
+  color:Gray;
+  font-size: 14px;
+}
+
+.boxcontent{
+  margin-top:30px;
+  background-color:white;
+  border-radius:5px;
+  box-shadow:1px 2px 3px 1px gainsboro;
+  padding:30px 20px;
+
+}
+
+
+a{
+  text-decoration:none;
+  color:gray;
+}
+
+.presentation a{
+  background-color:#EA6135;
+  color:white;
+  padding: 9px 6px 8px 6px;
+  border-radius:8px;
+  border-style:solid;
+
+}
+
+.presentation p{
+  text-align:justify;
+}
+.presentation a:hover{
+  background-color:black;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.presentation img{
+  border-radius:50%;
+  border-color:grey;
+  border-width:3px;
+  border-style:solid;
+  height:25%;
+  width:25%;
+}
+
+.presentation h1{
+  color:#EA6136;
+}
+
+ li{
+   opacity:0.4;
+  display:inline-block;
+  font-size:18px;
+  margin-right:40px;
+}
+
+li p {
+  font-size:16px;
+}
+
+.social li:hover{
+  transform:scale(1.2);
+  font-weight:bold;
+  opacity:1.0;
+    transform:rotatex(50);
+    transition-duration:1s;
+    transition-delay:0.1s;
+
+}
+
+
+
+
+.movies{
+  margin-bottom:100px;
+}
+
+.greybg{
+  background-color:gainsboro;
+}
+
+.movies p{
+  text-align:justify;
+  margin:0px 10px  0px 23%;
+  width:75%;
+  opacity:0.8;
+}
+
+.movies img{
+  width:19%;
+  height:142px;
+  float:left;
+  margin-right:11px;
+
+
+}
